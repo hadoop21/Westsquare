@@ -1,0 +1,6 @@
+def drop_first_last(numbers):
+    first, *middle, last = numbers
+    avg = sum(middle) / len(middle)
+    print(avg)
+
+drop_first_last([12, 5, 45, 87, 85, 65, 83, 26, 59, 84])
